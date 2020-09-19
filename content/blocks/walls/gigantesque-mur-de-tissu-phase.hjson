@@ -1,5 +1,6 @@
-type: DeflectorWall
-maxDamageDeflect: 21
+type: Wall
+deflect: true
+flashHit: true
 health: 9600
 size: 4
 requirements: [

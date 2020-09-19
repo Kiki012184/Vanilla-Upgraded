@@ -1,4 +1,4 @@
-type: LiquidTank
+type: LiquidRouter
 size: 4
 liquidCapacity: 2200
 health: 750
