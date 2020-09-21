@@ -6,8 +6,8 @@ const conveyor = extendContent(Conveyor, "hermetique-conveyor", {
 
 	unitOn(){},
 
-	drawLayer(tile){
-		this.super$drawLayer(tile);
+	draw(tile){
+		this.super$draw(tile);
 		Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
     },
 
@@ -32,6 +32,6 @@ const conduit = extendContent(Conduit, "hermetique-conduit", {
 
     draw(tile){
     	this.super$draw(tile);
-    	Draw.rect(Core.atlas.find("vanilla-upgraded-hermetique-conveyor-top"), tile.drawx(), tile.drawy());
+    	Draw.rect(this.glassRegion, tile.drawx(), tile.drawy());
     }
 });
