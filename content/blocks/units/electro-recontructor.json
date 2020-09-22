@@ -6,8 +6,8 @@
 		"power": 3,
 		"items": {
 			"items": [
-				{"item": "silicon", "amount": 20},
-				{"item": "lithium", "amount": 10},
+				{"item": "silicon", "amount": 25},
+				{"item": "lithium", "amount": 25},
 			],
 		},
 	},
@@ -19,6 +19,8 @@
 	"upgrades": [
 		["dagger", "teseus"],
 		["flare", "teoleus"],
+		["atrax", "misunit"],
+		["misunit", "explocryo"],
 	],
 	"category": "units",
 	"research": "additive-reconstructor",
